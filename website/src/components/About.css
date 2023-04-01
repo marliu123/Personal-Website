@@ -1,0 +1,57 @@
+#about {
+    background-color: #F0EDE5;
+    padding-left: 120px;
+    margin-top: 100px;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+  
+  .about-contact {
+    margin-top: 50px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .contact-item a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .contact-item svg {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .contact-item:hover svg {
+    color: #5e5e5e;
+  }
+  

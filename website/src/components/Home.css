@@ -1,0 +1,118 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F0EDE5;
+  padding: 2rem;
+  padding-left: 150px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1F1D17;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 2rem;
+  color: #AC3B61;
+  margin-top: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AC3B61;
+  color: #F0EDE5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: #1F1D17;
+}
+
+.resume-link {
+  display: inline-block;
+  background-color: #AC3B61;
+  color: #F0EDE5;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.resume-link:hover {
+  background-color: #1F1D17;
+}
+
+/* Define the keyframes for the typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Define the keyframes for the cursor animation */
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333;
+  }
+}
+
+/* Style the text and cursor */
+.typing-text {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* prevent text from wrapping to the next line */
+  border-right: 3px solid #333; /* cursor */
+  white-space: nowrap; /* prevent text from wrapping to the next line */
+  margin-right: 10px; /* spacing between text and cursor */
+  animation: typing 1s steps(20), blink 0.5s step-end infinite;
+}
+.typing-container {
+  margin-top: 20px;
+}
+
+

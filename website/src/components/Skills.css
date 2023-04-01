@@ -1,0 +1,120 @@
+#skills {
+    background-color: #F0EDE5;
+    padding-left: 120px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  .skill-circle {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    animation: rotation 30s infinite linear;
+  }
+  
+  .skill-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left: -60px;
+    border-radius: 50%;
+    background-color: #F0EDE5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+  }
+  
+  .skill-item1 {
+    animation: rotate 30s infinite linear;
+  }
+
+  .skill-item:nth-child(1) {
+    transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  
+  .skill-item:nth-child(2) {
+    transform: rotate(40deg) translateX(250px) rotate(-40deg);
+  }
+  
+  .skill-item:nth-child(3) {
+    transform: rotate(80deg) translateX(250px) rotate(-80deg);
+  }
+  
+  .skill-item:nth-child(4) {
+    transform: rotate(120deg) translateX(250px) rotate(-120deg);
+  }
+  
+  .skill-item:nth-child(5) {
+    transform: rotate(160deg) translateX(250px) rotate(-160deg);
+  }
+  
+  .skill-item:nth-child(6) {
+    transform: rotate(200deg) translateX(250px) rotate(-200deg);
+  }
+  
+  .skill-item:nth-child(7) {
+    transform: rotate(240deg) translateX(250px) rotate(-240deg);
+  }
+  
+  .skill-item:nth-child(8) {
+    transform: rotate(280deg) translateX(250px) rotate(-280deg);
+  }
+  
+  .skill-item:nth-child(9) {
+    transform: rotate(320deg) translateX(250px) rotate(-320deg);
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+
+  .skill-item:hover {
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .skills-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boba {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  
