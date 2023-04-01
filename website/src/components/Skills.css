@@ -6,8 +6,11 @@
   }
   
   #skills h2 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
   }
   
   .skill-circle {
@@ -99,6 +102,11 @@
     transition: all 0.3s ease-in-out;
   }
 
+  .skill-item:not(:hover) {
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+
   .skills-container {
     position: relative;
     display: flex;
@@ -106,9 +114,9 @@
     align-items: center;
   }
   
-  .boba {
-    width: 300px;
-    height: 300px;
+  .computer {
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 50%;
     left: 50%;

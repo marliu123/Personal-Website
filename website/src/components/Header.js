@@ -26,9 +26,6 @@ function Header() {
             <Link to="skills" spy={true} smooth={true}>Skills</Link>
           </li>
           <li>
-            <Link to="introduction" spy={true} smooth={true}>Introduction</Link>
-          </li>
-          <li>
             <Link to="works" spy={true} smooth={true}>Works</Link>
           </li>
           <li>
