@@ -10,7 +10,7 @@ import { faFileExcel } from '@fortawesome/free-solid-svg-icons';
 import { faRProject } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faLeaf } from '@fortawesome/free-solid-svg-icons';
-import boba from './images/bubble-tea.png';
+import computer from './images/computer.png';
 
 function Skills() {
     const languages = [
@@ -41,13 +41,13 @@ function Skills() {
                     onMouseLeave={() => setHovered(null)}
                   >
                     <div className="skill-item1">
-                      <FontAwesomeIcon icon={language.icon} size="2x" />
+                      <FontAwesomeIcon icon={language.icon} size="3x" />
                       {hovered === index && <span className="skill-name">{language.name}</span>}
                     </div>
                   </div>
                 ))}
               </div>
-              <img src={boba} alt="boba" className="boba" />
+              <img src={computer} alt="computer" className="computer" />
             </div>
           </section>
         </div>
